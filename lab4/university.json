@@ -1,0 +1,68 @@
+{
+  "name": "Tech University",
+  "rector": {
+    "type": "Human",
+    "data": {
+      "lastName": "Smith",
+      "firstName": "John",
+      "middleName": "Friedrich",
+      "gender": "MALE"
+    }
+  },
+  "faculties": [
+    {
+      "name": "Faculty of Information Technology",
+      "head": {
+        "type": "Human",
+        "data": {
+          "lastName": "Johnson",
+          "firstName": "Emily",
+          "middleName": "Michelle",
+          "gender": "FEMALE"
+        }
+      },
+      "departments": [
+        {
+          "name": "Software Engineering",
+          "head": {
+            "type": "Human",
+            "data": {
+              "lastName": "Brown",
+              "firstName": "Michael",
+              "middleName": "Anthony",
+              "gender": "MALE"
+            }
+          },
+          "groups": [
+            {
+              "name": "IT-2021-2",
+              "head": {
+                "type": "Human",
+                "data": {
+                  "lastName": "Williams",
+                  "firstName": "Maria",
+                  "middleName": "Laura",
+                  "gender": "FEMALE"
+                }
+              },
+              "students": [
+                {
+                  "lastName": "James",
+                  "firstName": "Taylor",
+                  "middleName": "Oliver",
+                  "gender": "MALE"
+                },
+                {
+                  "lastName": "Olivia",
+                  "firstName": "Jones",
+                  "middleName": "Isabella",
+                  "gender": "FEMALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
